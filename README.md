@@ -80,7 +80,7 @@ This repo centralizes my preparation before/during the internship:
 ## Repo Structure
 
 ```
-Alten-Internship/
+Alten-2026/
 ├── 01_excel_google_sheets/        # Excel / Sheets exercises and templates
 ├── 02_data_cleaning/              # Data cleaning scripts and notes
 ├── 03_hr_kpis/                    # Recruitment KPI definitions and calculations
