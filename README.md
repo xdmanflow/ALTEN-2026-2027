@@ -122,7 +122,7 @@ Potential extension: matching candidate profiles with open positions. Scope to b
 ## Repo Structure
 
 ```
-ALTEN-2026/
+ALTEN-2026-2027/
 ├── 01_data-analysis/
 │   ├── docs/                  # Methodology, KPI definitions, data dictionary (generic)
 │   ├── notebooks/             # Analysis notebooks — synthetic/anonymized data only
