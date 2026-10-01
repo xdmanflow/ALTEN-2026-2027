@@ -6,20 +6,6 @@
 
 ---
 
-## Table of Contents
-
-- [About the Internship](#about-the-internship)
-- [Missions](#missions)
-- [Tech Stack](#tech-stack)
-- [Skills Developed](#skills-developed)
-- [Timeline](#timeline)
-- [Repo Structure](#repo-structure)
-- [Internship Report & Defense](#internship-report--defense)
-- [Progress Tracker](#progress-tracker)
-- [Confidentiality & License](#confidentiality--license)
-
----
-
 ## About the Internship
 
 | Item | Details |
