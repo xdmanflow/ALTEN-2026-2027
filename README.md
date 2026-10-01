@@ -162,13 +162,6 @@ ALTEN-2026-2027/
 - [ ] Validation by company tutor
 - [ ] Final version submitted
 
-**Defense** (`06_defense/`) — presentation summarizing the internship for the academic jury.
-
-- [ ] Slide deck structure
-- [ ] Slides (context, missions, results, skills, conclusion)
-- [ ] Speaker notes
-- [ ] Rehearsal & Q&A preparation
-
 ---
 
 ## Progress Tracker
