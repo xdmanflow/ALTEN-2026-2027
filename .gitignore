@@ -1,0 +1,47 @@
+# =========================================================
+#  CONFIDENTIALITY GUARD — never commit real company data
+# =========================================================
+
+# Raw / real data (anywhere in the repo)
+data/
+**/raw/
+**/private/
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.parquet
+*.json.bak
+
+# Allow synthetic datasets only
+!**/synthetic/*.csv
+
+# CVs and documents (personal data)
+*.pdf
+*.docx
+# Allow final deliverables once validated by ALTEN
+!05_internship-report/final/*.pdf
+!06_defense/slides/*.pdf
+
+# Secrets & credentials
+.env
+.env.*
+*.key
+*.pem
+secrets/
+config.local.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*
