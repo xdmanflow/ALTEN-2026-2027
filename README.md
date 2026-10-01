@@ -1,79 +1,121 @@
-# Data Analyst / Recruitment Support Intern at ALTEN
+# Data Analyst & AI Engineering Intern @ ALTEN
 
-> Preparation and tracking repo for my Data Assistant internship within ALTEN's Recruitment team — collecting, structuring, analyzing, and improving multi-sector HR/recruitment data.
+> Tracking repo for my 20-week engineering internship within ALTEN's Recruitment department (Toulouse), combining **recruitment data analysis** and the **design of an AI-powered automation solution**.
+
+> ⚠️ **Confidentiality:** this repository contains **no company data, no candidate information, and no internal documents**. Only material explicitly authorized by ALTEN (sanitized, anonymized, or synthetic) is published here.
 
 ---
 
 ## Table of Contents
 
 - [About the Internship](#about-the-internship)
-- [Main Missions](#main-missions)
-- [Profile Required](#profile-required)
-- [Preparation Goals](#preparation-goals)
-- [Learning / Revision Plan](#learning--revision-plan)
+- [Missions](#missions)
+- [Tech Stack](#tech-stack)
+- [Skills Developed](#skills-developed)
+- [Timeline](#timeline)
 - [Repo Structure](#repo-structure)
-- [Useful Resources](#useful-resources)
+- [Internship Report & Defense](#internship-report--defense)
 - [Progress Tracker](#progress-tracker)
+- [Confidentiality & License](#confidentiality--license)
 
 ---
 
 ## About the Internship
 
-Internship within ALTEN's **Recruitment** department, as data support. The goal is to contribute to the exploitation, structuring, and improvement of data related to multi-sector recruitment activities, using various HR tools and CRM/ATS systems.
-
 | Item | Details |
 |---|---|
-| Company | ALTEN France |
-| Role | Data Analyst / Recruitment Support (M/F) |
+| Company | ALTEN France (Engineering & IT consulting) |
+| Location | Toulouse, France |
 | Department | Recruitment |
-| Level required | 2–3 years post-high school (BTS, DUT, Bachelor's) |
-| Fields | Data, Statistics, Business Intelligence, HR |
+| Role | Data Analyst & AI Engineering Intern |
+| Duration | 20 weeks — September 14, 2026 → January 29, 2027 |
+| Academic context | CESI École d'Ingénieurs — Engineering degree, Computer Science (AI & Data Science track) |
+
+The internship sits at the intersection of **data** and **AI** applied to recruitment: turning recruitment activity data into actionable insights for decision-makers, and reducing repetitive manual work through AI-driven automation.
 
 ---
 
-## Main Missions
+## Missions
 
-- Collect, structure, and clean data from multiple sources (CRM, ATS, Excel files, etc.)
-- Update and enrich recruitment-related databases
-- Create and automate tracking dashboards (KPIs, performance, sourcing, time-to-hire…)
-- Help analyze indicators to support decision-making
-- Identify areas for continuous improvement in data management and quality
-- Contribute to documenting data processing procedures
+### 1. Recruitment Data Analysis — *Data Analyst*
 
----
+Turn raw recruitment data into **actionable insights** for stakeholders.
 
-## Profile Required
+- Collect, clean and structure data exported from recruitment tools (tidy data principles)
+- Define and compute recruitment KPIs (activity, candidate quality, conversion, time-to-offer, sourcing efficiency)
+- Build dashboards and visuals answering concrete business questions
+- Document the data processing methodology
 
-- Student in a Data, Statistics, Business Intelligence, or HR program (Bac +2/+3)
-- Comfortable with Excel / Google Sheets
-- Rigorous, curious, with strong analytical thinking
-- Team spirit, interest in recruitment and digital transformation
+**Planned dashboard structure:**
 
----
-
-## Preparation Goals
-
-This repo centralizes my preparation before/during the internship:
-
-- [ ] Strengthen Excel / Google Sheets skills (advanced formulas, pivot tables, conditional formatting)
-- [ ] Get familiar with recruitment CRM/ATS tools (candidate/job database logic)
-- [ ] Review data cleaning and structuring best practices
-- [ ] Understand common HR KPIs (time-to-hire, conversion rate, sourcing, etc.)
-- [ ] Build automated dashboards / reporting
-- [ ] Document my processes the way I would in a real company
-
----
-
-## Learning / Revision Plan
-
-| Topic | Skills Targeted | Status |
+| Page | Business question | Examples of visuals |
 |---|---|---|
-| Advanced Excel / Google Sheets | VLOOKUP/XLOOKUP, pivot tables, basic macros, conditional formatting | |
-| Data cleaning | Deduplication, normalization, handling missing values | |
-| HR & Recruitment KPIs | Time-to-hire, sourcing rate, candidate conversion rate | |
-| CRM / ATS tools | Understanding how they work (e.g. Bullhorn, Recruitee, etc.) | |
-| Reporting & Dashboards | Building automated tracking dashboards | |
-| Process documentation | Writing clear data processing procedures | |
+| Overview | Where do we stand? | KPI cards (volumes, conversion rate, median time-to-offer) |
+| Activity | How much are we interviewing? | Weekly trends, breakdown by team/division, interview status |
+| Quality | How strong are the candidates? | Score distributions, averages by education and skill family |
+| Funnel | How do interviews turn into hires? | Conversion funnel, lead times, main rejection/dropout reasons |
+| Hires | Where do our hires come from? | Hires by education, skills, division, location, sourcing channel |
+
+### 2. AI-Powered CV Information Extraction — *AI Engineer*
+
+Design and build a solution that **automatically extracts key information from CVs** to pre-fill candidate profiles in the recruitment platform (ATS), replacing a slow and repetitive manual process.
+
+- Document processing (PDF CVs → structured data)
+- LLM-based information extraction with a defined output schema
+- Data validation and handling of ambiguous / missing information
+- Evaluation protocol to measure extraction accuracy and limit errors
+- Focus on reliability, security and compliance (personal data)
+
+### 3. Operational Support
+
+- Structuring candidate data from CVs into the recruitment platform — hands-on work that provided the domain knowledge and edge cases used to design the automation (Mission 2)
+- Ad-hoc data analyses for recruitment teams
+
+### 4. Candidate–Job Matching — *Exploratory*
+
+Potential extension: matching candidate profiles with open positions. Scope to be defined.
+
+---
+
+## Tech Stack
+
+| Area | Tools |
+|---|---|
+| Data cleaning & analysis | Excel, Python (pandas), SQL |
+| Visualization & reporting | Dashboards, Python visualization libraries |
+| AI / LLM engineering | Python, LLM APIs, document (PDF) processing |
+| Quality | Data validation, testing, evaluation metrics |
+| Workflow | Git / GitHub, AI-assisted development |
+
+---
+
+## Skills Developed
+
+| Domain | Skills targeted | Status |
+|---|---|---|
+| Data cleaning | Tidy data, normalization, deduplication, missing values | 🟡 In progress |
+| Recruitment KPIs | Funnel metrics, conversion rate, time-to-offer, sourcing efficiency | 🟡 In progress |
+| Data visualization | Dashboard design, storytelling for stakeholders | 🟡 In progress |
+| Python & testing | Clean code, unit tests, project structure | 🟡 In progress |
+| APIs & web | Consuming APIs, authentication, error handling | ⚪ To do |
+| LLM engineering | Prompt design, structured outputs, extraction pipelines | 🟡 In progress |
+| Evaluation | Ground truth datasets, accuracy metrics, error analysis | ⚪ To do |
+| Data validation | Schemas, consistency checks | ⚪ To do |
+| Backend & deployment | Serving a solution, packaging, environments | ⚪ To do |
+| Security & compliance | Personal data handling (GDPR), secrets management | ⚪ To do |
+| Engineering judgement | Trade-offs, scoping, communicating with stakeholders | 🟡 In progress |
+
+---
+
+## Timeline
+
+| Phase | Period | Focus |
+|---|---|---|
+| 1. Onboarding | Weeks 1–2 | Company & recruitment process discovery, tools, operational support |
+| 2. Launch | Weeks 3–6 | Data cleaning & first analyses · AI solution design and prototyping |
+| 3. Build | Weeks 7–14 | Dashboards delivery · Extraction pipeline development & evaluation |
+| 4. Consolidation | Weeks 15–17 | Testing, documentation, handover |
+| 5. Wrap-up | Weeks 18–20 | Internship report & defense preparation |
 
 ---
 
@@ -81,30 +123,74 @@ This repo centralizes my preparation before/during the internship:
 
 ```
 ALTEN-2026/
-├── 01_excel_google_sheets/        # Excel / Sheets exercises and templates
-├── 02_data_cleaning/              # Data cleaning scripts and notes
-├── 03_hr_kpis/                    # Recruitment KPI definitions and calculations
-├── 04_dashboards/                 # Dashboard / reporting templates
-├── 05_process_documentation/      # Data process documentation templates
-├── resources/                     # Useful links, cheat sheets, tutorials
+├── 01_data-analysis/
+│   ├── docs/                  # Methodology, KPI definitions, data dictionary (generic)
+│   ├── notebooks/             # Analysis notebooks — synthetic/anonymized data only
+│   └── visuals/               # Authorized, anonymized dashboard screenshots
+│
+├── 02_ai-cv-extraction/
+│   ├── docs/                  # Architecture, extraction schema, evaluation protocol
+│   ├── src/                   # Source code (only if authorized)
+│   └── tests/                 # Tests on synthetic CVs
+│
+├── 03_candidate-matching/     # Exploratory work (if the project starts)
+│
+├── 04_learning/               # Personal notes on skills learned during the internship
+│
+├── 05_internship-report/
+│   ├── outline.md             # Report plan
+│   ├── drafts/                # Working drafts
+│   └── final/                 # Final version (validated by ALTEN)
+│
+├── 06_defense/
+│   ├── slides/                # Defense presentation (.pptx / .pdf)
+│   └── speaker-notes.md       # Talking points & Q&A preparation
+│
+├── .gitignore                 # Excludes any real data / credentials
+├── LICENSE
 └── README.md
 ```
 
 ---
 
-## Useful Resources
+## Internship Report & Defense
 
-- Official Excel / Google Sheets documentation
-- HR & recruitment KPI cheat sheets (time-to-hire, sourcing rate, etc.)
-- Data cleaning and structuring tutorials
-- Reporting and data visualization best practices
+**Internship report** (`05_internship-report/`) — written at the end of the internship (December–January), validated by ALTEN before publication.
 
-*(To be filled in with specific links as prep progresses.)*
+- [ ] Report outline
+- [ ] Company & context presentation
+- [ ] Mission 1 — Data analysis: approach, results, impact
+- [ ] Mission 2 — AI solution: design, implementation, evaluation
+- [ ] Skills acquired & critical analysis
+- [ ] Conclusion & perspectives
+- [ ] Validation by company tutor
+- [ ] Final version submitted
 
+**Defense** (`06_defense/`) — presentation summarizing the internship for the academic jury.
+
+- [ ] Slide deck structure
+- [ ] Slides (context, missions, results, skills, conclusion)
+- [ ] Speaker notes
+- [ ] Rehearsal & Q&A preparation
 
 ---
 
-## License
+## Progress Tracker
+
+- [x] **Phase 1 — Onboarding** (weeks 1–2)
+- [ ] **Phase 2 — Launch** (weeks 3–6)
+  - [x] First data cleaning completed
+  - [ ] First set of dashboards delivered
+  - [ ] AI solution design validated
+- [ ] **Phase 3 — Build** (weeks 7–14)
+- [ ] **Phase 4 — Consolidation** (weeks 15–17)
+- [ ] **Phase 5 — Wrap-up** (weeks 18–20)
+
+---
+
+## Confidentiality & License
+
+All data, documents and internal information related to ALTEN, its candidates, clients and employees remain confidential and are **not** published in this repository. Any content shared here has been authorized by ALTEN and is sanitized, anonymized or synthetic.
 
 Copyright © 2026 ALTEN. All rights reserved.
 
