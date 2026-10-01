@@ -68,7 +68,7 @@ Design and build a solution that **automatically extracts key information from C
 
 ### 3. Operational Support
 
-- Structuring candidate data from CVs into the recruitment platform — hands-on work that provided the domain knowledge and edge cases used to design the automation (Mission 2)
+- Structuring candidate data from CVs into the recruitment platform — hands-on work that provided the domain knowledge and edge cases used to design the automation
 - Ad-hoc data analyses for recruitment teams
 
 ### 4. Candidate–Job Matching — *Exploratory*
@@ -93,17 +93,17 @@ Potential extension: matching candidate profiles with open positions. Scope to b
 
 | Domain | Skills targeted | Status |
 |---|---|---|
-| Data cleaning | Tidy data, normalization, deduplication, missing values | 🟡 In progress |
-| Recruitment KPIs | Funnel metrics, conversion rate, time-to-offer, sourcing efficiency | 🟡 In progress |
-| Data visualization | Dashboard design, storytelling for stakeholders | 🟡 In progress |
-| Python & testing | Clean code, unit tests, project structure | 🟡 In progress |
-| APIs & web | Consuming APIs, authentication, error handling | ⚪ To do |
-| LLM engineering | Prompt design, structured outputs, extraction pipelines | 🟡 In progress |
-| Evaluation | Ground truth datasets, accuracy metrics, error analysis | ⚪ To do |
-| Data validation | Schemas, consistency checks | ⚪ To do |
-| Backend & deployment | Serving a solution, packaging, environments | ⚪ To do |
-| Security & compliance | Personal data handling (GDPR), secrets management | ⚪ To do |
-| Engineering judgement | Trade-offs, scoping, communicating with stakeholders | 🟡 In progress |
+| Data cleaning | Tidy data, normalization, deduplication, missing values | In progress |
+| Recruitment KPIs | Funnel metrics, conversion rate, time-to-offer, sourcing efficiency | In progress |
+| Data visualization | Dashboard design, storytelling for stakeholders | In progress |
+| Python & testing | Clean code, unit tests, project structure | In progress |
+| APIs & web | Consuming APIs, authentication, error handling | To do |
+| LLM engineering | Prompt design, structured outputs, extraction pipelines | In progress |
+| Evaluation | Ground truth datasets, accuracy metrics, error analysis | To do |
+| Data validation | Schemas, consistency checks | To do |
+| Backend & deployment | Serving a solution, packaging, environments | To do |
+| Security & compliance | Personal data handling (GDPR), secrets management | To do |
+| Engineering judgement | Trade-offs, scoping, communicating with stakeholders | In progress |
 
 ---
 
