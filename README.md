@@ -1,4 +1,4 @@
-# Data Analyst & AI Engineering Intern @ ALTEN
+# Data Analyst & AI Engineering Intern at ALTEN
 
 > Tracking repo for my 20-week engineering internship within ALTEN's Recruitment department (Toulouse), combining **recruitment data analysis** and the **design of an AI-powered automation solution**.
 
