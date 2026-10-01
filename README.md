@@ -142,10 +142,6 @@ ALTEN-2026-2027/
 │   ├── drafts/                # Working drafts
 │   └── final/                 # Final version (validated by ALTEN)
 │
-├── 06_defense/
-│   ├── slides/                # Defense presentation (.pptx / .pdf)
-│   └── speaker-notes.md       # Talking points & Q&A preparation
-│
 ├── .gitignore                 # Excludes any real data / credentials
 ├── LICENSE
 └── README.md
